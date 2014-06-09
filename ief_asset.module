@@ -1,0 +1,16 @@
+<?php
+
+/**
+ * @file ief_asset.module
+ * Media assets extension for Inline Entity Form
+ */
+
+/**
+ * Implements hook_entity_info_alter().
+ */
+function ief_asset_entity_info_alter(&$entity_info) {
+  $entity_info['asset']['inline entity form'] = array(
+    'controller' => 'AssetInlineEntityFormController',
+  );
+}
+

@@ -1,0 +1,7 @@
+name = Inline Entity Form - Assets
+description = Media assets extension for Inline Entity Form
+dependencies[] = asset
+dependencies[] = inline_entity_form
+core = 7.x
+
+files[] = includes/asset.inline_entity_form.inc
